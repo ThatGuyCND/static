@@ -16,33 +16,33 @@
           <div id="header">
 
             <!-- Nav -->
-              <nav id="nav">
-                <ul>
-                  <li class="current"><a href="index.html">Home</a></li>
-                  <li>
-                    <a href="#">Dropdown</a>
-                    <ul>
-                      <li><a href="#">Lorem ipsum</a></li>
-                      <li><a href="#">Magna veroeros</a></li>
-                      <li><a href="#">Etiam nisl</a></li>
-                      <li>
-                        <a href="#">Sed consequat</a>
-                        <ul>
-                          <li><a href="#">Lorem dolor</a></li>
-                          <li><a href="#">Amet consequat</a></li>
-                          <li><a href="#">Magna phasellus</a></li>
-                          <li><a href="#">Etiam nisl</a></li>
-                          <li><a href="#">Sed feugiat</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="#">Nisl tempus</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="left-sidebar.html">Left Sidebar</a></li>
-                  <li><a href="right-sidebar.html">Right Sidebar</a></li>
-                  <li><a href="no-sidebar.html">No Sidebar</a></li>
-                </ul>
-              </nav>
+            <!-- <nav id="nav">
+              <ul>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li>
+                  <a href="#">Dropdown</a>
+                  <ul>
+                    <li><a href="#">Lorem ipsum</a></li>
+                    <li><a href="#">Magna veroeros</a></li>
+                    <li><a href="#">Etiam nisl</a></li>
+                    <li>
+                      <a href="#">Sed consequat</a>
+                      <ul>
+                        <li><a href="#">Lorem dolor</a></li>
+                        <li><a href="#">Amet consequat</a></li>
+                        <li><a href="#">Magna phasellus</a></li>
+                        <li><a href="#">Etiam nisl</a></li>
+                        <li><a href="#">Sed feugiat</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Nisl tempus</a></li>
+                  </ul>
+                </li>
+                <li><a href="left-sidebar.html">Left Sidebar</a></li>
+                <li><a href="right-sidebar.html">Right Sidebar</a></li>
+                <li><a href="no-sidebar.html">No Sidebar</a></li>
+              </ul>
+            </nav> -->
 
             <!-- Logo -->
               <div id="logo">
@@ -94,13 +94,13 @@
             </p>
             <!-- <p class="style3">This site is <strong>responsive</strong>, built on <strong>HTML5</strong> and <strong>CSS3</strong>, and released for free under the <a href="http://html5up.net/license">Creative Commons license</a>, so use it for any of your personal or commercial projects!</p> -->
             <ul class="actions">
-              <li><a href="#main" class="button style3 big">Proceed</a></li>
+              <li><a href="#main-wrapper" class="button style3 big">Proceed</a></li>
             </ul>
           </section>
         </div>
 
       <!-- Main -->
-        <div class="wrapper style2">
+        <div id="main-wrapper" class="wrapper style2">
           <div class="title">The Details</div>
           <div id="main" class="container">
 
@@ -248,22 +248,25 @@
             </header>
             <hr />
             <div class="row 150%">
-              <div class="6u 12u(mobile)">
+              <div class="9u 12u(mobile)">
 
                 <!-- Contact Form -->
                   <section>
                     <form method="post" action="#">
                       <div class="row 50%">
-                        <div class="6u 12u(mobile)">
+                        <div class="12u 12u(mobile)">
                           <input type="text" name="name" id="contact-name" placeholder="Name" />
                         </div>
-                        <div class="6u 12u(mobile)">
+                        <div class="12u 12u(mobile)">
                           <input type="text" name="email" id="contact-email" placeholder="Email" />
+                        </div>
+                        <div class="12u 12u(mobile)">
+                          <input type="text" name="name" id="email-subject" placeholder="Subject" />
                         </div>
                       </div>
                       <div class="row 50%">
                         <div class="12u">
-                          <textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
+                          <textarea name="message" id="email-message" placeholder="Message" rows="3"></textarea>
                         </div>
                       </div>
                       <div class="row">
@@ -278,18 +281,12 @@
                   </section>
 
               </div>
-              <div class="6u 12u(mobile)">
+              <div class="3u 12u(mobile)">
 
                 <!-- Contact -->
                   <section class="feature-list small">
                     <div class="row">
-                      <div class="6u 12u(mobile)">
-                        <!-- <section>
-                          <h3 class="icon fa-home">Mailing Address</h3>
-                          <p></p>
-                        </section> -->
-                      </div>
-                      <div class="6u 12u(mobile)">
+                      <div class="12u 6u(mobile)">
                         <section>
                           <h3 class="icon fa-comment">Social</h3>
                           <p>
@@ -300,9 +297,7 @@
                           </p>
                         </section>
                       </div>
-                    </div>
-                    <div class="row">
-                      <div class="6u 12u(mobile)">
+                      <div class="12u 6u(mobile)">
                         <section>
                           <h3 class="icon fa-envelope">Email</h3>
                           <p>
@@ -310,7 +305,7 @@
                           </p>
                         </section>
                       </div>
-                      <div class="6u 12u(mobile)">
+                      <div class="12u 6u(mobile)">
                         <section>
                           <h3 class="icon fa-phone">Phone</h3>
                           <p>

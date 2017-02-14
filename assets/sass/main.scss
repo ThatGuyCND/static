@@ -193,7 +193,7 @@ form {
   }
 
   textarea {
-    min-height: 10em;
+    min-height: 6em;
   }
 
   .formerize-placeholder {
@@ -1296,6 +1296,11 @@ ol {
       font-size: 10.5pt;
       letter-spacing: 0;
     }
+
+		form textarea {
+			margin: 0 auto;
+		  max-width: 30em;
+		}
 
     h2, h3, h4, h5, h6 {
       font-size: 1.2em;
