@@ -160,3 +160,6 @@ $RECYCLE.BIN/
 hugo.exe
 /public/
 # End of https://www.gitignore.io/api/ruby,drupal,osx,windows,linux,hugo
+
+### Sass ###
+/assets/.sass-cache/
